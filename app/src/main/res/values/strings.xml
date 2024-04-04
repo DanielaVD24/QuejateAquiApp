@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuejateAquiApp</string>
+    <string name="correo">Correo</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="qu_jate_aqu">QUÉJATE AQUÍ</string>
+    <string name="crear_queja">Crear Queja</string>
+</resources>

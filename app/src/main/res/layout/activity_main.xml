@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_bold"
+        android:shadowColor="@color/black"
+        android:text="@string/qu_jate_aqu"
+        android:textSize="34sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80sp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logoquejate"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/edittext_style"
+        android:ems="10"
+        android:hint="@string/correo"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"
+        android:padding="6sp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/imageView"
+        tools:layout_editor_absoluteX="100dp" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_style"
+        android:ems="10"
+        android:hint="@string/contrase_a"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:padding="6sp"
+        android:layout_below="@+id/etCorreo"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="118dp"
+        android:layout_height="46dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/iniciar_sesi_n"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/etPassword"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#00FFFFFF"
+        android:text="@string/crear_cuenta"
+        android:textColor="#2C92C8"
+        android:textColorLink="@color/white"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>
+
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
